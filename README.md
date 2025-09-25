@@ -78,24 +78,28 @@ Each object in the labyrinth has been given a numeric type for easier differenti
 
 ```
 ---
-
 ## 🚀 How to Run
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/<your-username>/<repo-name>.git
    cd <repo-name>
+   ```
 
 2. Go to the desired version:
-cd src/v1   # or src/v2
-Compile with g++:
+   ```bash
+   cd src/v1   # or src/v2
+   ```
 
-g++ -o labyrinth main.cpp *.cpp
+3. Compile with g++:
+   ```bash
+   g++ -o labyrinth.exe main.cpp *.cpp
+   ```
 
-
-Run the game:
-
-./labyrinth
+4. Run the game:
+   ```bash
+   labyrinth.exe
+   ```
 
 📝 Report
 
