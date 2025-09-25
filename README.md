@@ -68,13 +68,15 @@ Each object in the labyrinth has been given a numeric type for easier differenti
 
 ## 📂 Repository Structure
 
+```
+
 ├── src/
 │ ├── v1/ # Basic version (player only)
 │ └── v2/ # Improved version (enemy + custom labyrinths)
 ├── Documentation/ # Project report and Assignment Instructions
 └── README.md
 
-
+```
 ---
 
 ## 🚀 How to Run
