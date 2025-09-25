@@ -1,11 +1,3 @@
-Parfait 👍 je vais refaire le **README en anglais complet** avec toutes les parties (base, improved version, AND the feature with custom labyrinths from text files).
-Ça donnera un rendu professionnel pour GitHub 👌
-
-Voici la version complète :
-
----
-
-```markdown
 # 🌀 Labyrinth Game – C++
 
 This project was developed as part of a graded C++ assignment at **Polytech Clermont-Ferrand (IMDS 4A)**.  
@@ -76,17 +68,12 @@ Each object in the labyrinth has been given a numeric type for easier differenti
 
 ## 📂 Repository Structure
 
-```
-
-.
 ├── src/
-│   ├── v1/   # Basic version (player only)
-│   └── v2/   # Improved version (enemy + custom labyrinths)
-├── labyrinths/  # Example labyrinth text files
-├── report/      # Project report
+│ ├── v1/ # Basic version (player only)
+│ └── v2/ # Improved version (enemy + custom labyrinths)
+├── Documentation/ # Project report and Assignment Instructions
 └── README.md
 
-````
 
 ---
 
@@ -96,41 +83,23 @@ Each object in the labyrinth has been given a numeric type for easier differenti
    ```bash
    git clone https://github.com/<your-username>/<repo-name>.git
    cd <repo-name>
-````
 
 2. Go to the desired version:
+cd src/v1   # or src/v2
+Compile with g++:
 
-   ```bash
-   cd src/v1   # or src/v2
-   ```
+g++ -o labyrinth main.cpp *.cpp
 
-3. Compile with g++:
 
-   ```bash
-   g++ -o labyrinth main.cpp *.cpp
-   ```
+Run the game:
 
-4. Run the game:
+./labyrinth
 
-   ```bash
-   ./labyrinth
-   ```
+📝 Report
 
----
+A detailed report describing the game rules, implementation choices, and improvements can be found in the Documentation/
+ folder.
 
-## 📝 Report
+👥 Authors
 
-A detailed report describing the game rules, implementation choices, and improvements can be found in the [`report/`](./report) folder.
-
----
-
-## 👥 Authors
-
-Project developed by **Joseph** and teammate as part of the graded C++ assignment at **Polytech Clermont-Ferrand (IMDS 4A)**.
-
-```
-
----
-
-Veux-tu que je t’ajoute aussi un **diagramme ASCII d’un petit labyrinthe** (exemple minimal) pour illustrer directement dans le README ?
-```
+Project developed by Joseph and teammate as part of the graded C++ assignment at Polytech Clermont-Ferrand (IMDS 4A).
